@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <main class="container">
+        <img id="vega" src="assets/img/dr-vegapunk-one-piece1.png" alt="">
+        <img src="assets/img/Eintein.png" alt="">
+        <div class="calculator">
+            <div class="result"></div>
+                <ul class="options">
+                    <div>
+                        <li id="rparenteses" onclick="contas('rparenteses')">(</li>
+                        <li id="lparenteses" onclick="contas('lparenteses')">)</li>
+                        <li id="porcent" onclick="contas('porcent')">%</li>
+                        <li id="clear" onclick="clear('clear')">AC</li>
+                    </div>
+                    <div>
+                        <li id="seve" onclick="contas('seve')">7</li>
+                        <li id="eight" onclick="contas('eight')">8</li>
+                        <li id="nine" onclick="contas('nine')">9</li>
+                        <li id="divisor" onclick="contas('divisor')">/</li>
+                    </div>
+                    <div>
+                        <li id="four" onclick="contas('four')">4</li>
+                        <li id="five" onclick="contas('five')">5</li>
+                        <li id="six" onclick="contas('six')">6</li>
+                        <li id="multiplier" onclick="contas('multiplier')">X</li>
+                    </div>
+                    <div>
+                        <li id="one" onclick="contas('one')">1</li>
+                        <li id="two" onclick="contas('two')">2</li>
+                        <li id="three" onclick="contas('three')">3</li>
+                        <li id="minus" onclick="contas('minus')">-</li>
+                    </div>
+                    <div>
+                        <li id="zero" onclick="contas('zero')">0</li>
+                        <li id="dot" onclick="contas('dot')">.</li>
+                        <li id="equal" onclick="answer()">=</li>
+                        <li id="plus" onclick="contas('plus')">+</li>
+                    </div>
+                </ul>
+        </div>
+    </main>
+</body>
+<script src="assets/js/scripts.js"></script>
+</html>
