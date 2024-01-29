@@ -1,9 +1,14 @@
 /*imgs*/
 
+body {
+    background-color: #B0E0E4;
+}
+
 img {
     position: absolute;
     z-index: -1;
     right: 0;
+    width: 25%;
 }
 
 #vega {
@@ -21,9 +26,15 @@ img {
 }
 .calculator {
     margin: 0 auto;
-    width: 30%;
-    border: 2px grey solid;
+    width: 23%;
+    height: 50%;
+    border: 2px black solid;
+    background-color: #40668B;
+    color: #fff;
     display: flex;
+    box-sizing: border-box;
+    border-radius: 5%;
+    box-shadow: 100px 100px 100px 70px rgba(0, 0, 0, 0.687);
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -31,28 +42,59 @@ img {
 .options div{
     display: flex;
     flex-direction: row;
-       
 }
 .options > div > li {
     list-style: none;
     width: 5vw;
     height: 5vh;
     font-size: 2.5rem;
-    border: 1px solid blue;
+    margin: 2px;
+    box-shadow: 2px 2px black;
+    border: 1px solid black;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center; 
 }
 
+.options > div > li:active {
+    background-color: #e0e0e0;
+}
+.plus {
+    background-color: rgba(255, 0, 0, 0.79);
+}
 ul {
     padding: 0;
 }
 .result {
     margin: 0 auto;
     margin-top: 10px;
-    width: 90%;
+    width: 85%;
     border: 2px solid grey;
-    height: 50px;
+    background-color: #E7ECF0;
+    color: black;
+    height: 30px;
+    padding: 15px;
+    display: flex;
+    margin-bottom: 10%;
+    font-size: 3vh;
+    border-radius: 10px;
+    justify-content: right;
+    align-items: center;
     text-align: right;
+    overflow: hidden;
+}
+
+/*Tutorial*/
+h3, p {
+    position: absolute;
+    margin-top: -15vh;
+    font-size: 3vh;
+    background-color: #223078db;
+    border: #000 2px solid;
+    color: white;
+}
+h3 {
+    margin-left: -15vh;
+    
 }
