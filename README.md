@@ -10,3 +10,6 @@
 - CSS
 - Javascript
 - Figma
+
+
+![image](https://github.com/Kevinwmiguel/Calculator-JS/assets/59360014/5e4eaa3d-3171-4589-8b0f-4ba983537934)
