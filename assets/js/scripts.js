@@ -6,7 +6,9 @@ function contas(value) {
 function answer() {
     var result = document.querySelector('.result');
     try {
-        result.innerText = eval(result.innerText);
+        // Substitua o operador % por * 0.01
+        var expression = result.innerText.replace(/%/g, '* 0.01');
+        result.innerText = eval(expression);
     } catch (error) {
         result.innerText = 'Erro';
     }
